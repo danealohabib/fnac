@@ -1,6 +1,3 @@
-
-ptm <- proc.time()
-
 # load packages
 pacman::p_load(tidyverse, janitor, ggmap, rvest)
 
@@ -98,7 +95,3 @@ nw_geocode <- nw_data %>%
 # save nw store geo code data
 write_csv(nw_geocode, "data/processed/nw_geocode.csv")
 
-proc.time() - ptm
-
-#   user  system elapsed 
-# 2.57    0.11   53.72
