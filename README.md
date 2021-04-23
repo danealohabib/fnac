@@ -4,12 +4,7 @@ Title of Publication: An Exploration of First Nations Reserves and Access to Cas
 Paper Number: [To be completed by K&IS upon publication]  
 DOI of publication: [To be completed by K&IS upon publication]
 
-### GENERATE TABLES AND FIGURES FROM PROCESSED DATA
-
-1. Create an R project
-2. Run master_output.R
-
-### DESCRIPTION OF CODE AND DATA
+### DESCRIPTION OF CODE
 1. data_process_1.R  
  * Generates population data for all CSDs in Canada. Also defines which CSDs are associated with a reserve. 
 2. data_process_2.R
