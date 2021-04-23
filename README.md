@@ -1,4 +1,4 @@
-## Data and Code Supporting 'An Exploration of First Nations Reserves and Access to Cash'
+Code Supporting 'An Exploration of First Nations Reserves and Access to Cash'
 
 Title of Publication: An Exploration of First Nations Reserves and Access to Cash  
 Paper Number: [To be completed by K&IS upon publication]  
