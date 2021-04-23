@@ -33,36 +33,33 @@ DOI of publication: [To be completed by K&IS upon publication]
 * Used to process all raw data
 ### REPLICATE ENTIRE ANALYSIS 
 
-1. Download band office data:
+1. [Download band office data](https://open.canada.ca/data/en/dataset/b6567c5c-8339-4055-99fa-63f92114d9e4)
 
-* Indigenous and Northern Affairs Canada. 2019. First Nations Locations. Retrieved from https://open.canada.ca/data/en/dataset/b6567c5c-8339-4055-99fa-63f92114d9e4. 
+Indigenous and Northern Affairs Canada. 2019. First Nations Locations
 
-2. Download Census Subdivision boundry files
+2. [Download Census Subdivision boundry files](https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2016-eng.cfm)
 
 Census Subdivision, 2016 Census. Statistics Canada Catalogue no. 92-160-X
-https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2016-eng.cfm
 
-3. Download Population Centre Boundry files
+3. [Download Population Centre Boundry files](https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2016-eng.cfm)
 
 Statistics Canada. Population Centre Boundary File, 2016 Census. Statistics Canada Catalogue no 92-166-X
-https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2016-eng.cfm
 
 4. Retreive 2018 Mastercard ATM data from the Bank of Canada
  
-Data and Information Resources A to Z: mastercard (bank-banque-canada.ca)
-Contract of Mastercard ATM location data is managed by Alison Layng (CS).
+Data available upon request  
+Email: DO'Habib@bank-banque-canada.ca
 
 5. Retreive 2018 FIF database
 
-Data can be found here:https://www.payments.ca/our-directories/financial-institutions-branch-directory
+Data can be found [here](https://www.payments.ca/our-directories/financial-institutions-branch-directory)  
+Processed data available upon request.  
 For more information on data cleaning rules see appendix F of Chen, H. and M. Strathearn. 2020. “A Spatial Model of Bank Branches in Canada.” Bank of Canada Staff Working Paper 2020-4
-Financial Institutions File from Payment Canada: fif@payments.ca
 
-6. Download census profiles for all CSDs. 
+6. [Download census profiles for all CSDs](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page_Download-Telecharger.cfm?Lang=E&Tab=1&Geo1=CSD&Code1=59&Geo2=PR&Code2=01&SearchText=&SearchType=Begins&SearchPR=01&B1=All&TABID=1&type=0)
 
-Data contains demographics for all CSDs within each province
-Click option 2 in link below
-https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page_Download-Telecharger.cfm?Lang=E&Tab=1&Geo1=CSD&Code1=59&Geo2=PR&Code2=01&SearchText=&SearchType=Begins&SearchPR=01&B1=All&TABID=1&type=0
+Data contains demographics for all CSDs within each province  
+Download data by province
 
 7. API KEY
 
