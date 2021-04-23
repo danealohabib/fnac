@@ -1,4 +1,4 @@
-Code Supporting 'An Exploration of First Nations Reserves and Access to Cash'
+## Code Supporting 'An Exploration of First Nations Reserves and Access to Cash'
 
 Title of Publication: An Exploration of First Nations Reserves and Access to Cash  
 Paper Number: [To be completed by K&IS upon publication]  
@@ -7,25 +7,25 @@ DOI of publication: [To be completed by K&IS upon publication]
 ### DESCRIPTION OF CODE
 1. [data_process_1.R](https://github.com/danealohabib/fnac/blob/main/data_process_1.R)
  * Generates population data for all CSDs in Canada. Also defines which CSDs are associated with a reserve. 
-2. data_process_2.R
+2. [data_process_2.R](https://github.com/danealohabib/fnac/blob/main/data_process_2.R)
  * Data cleaning on the raw Mastercard data
  * We differentiated between WL ATMs and FI owned ATMs. Processing lat/lon variables for subsequent spatial data analysis  
-3. data_process_3.R
+3. [data_process_3.R](https://github.com/danealohabib/fnac/blob/main/data_process_3.R)
  * Web scraping/geocoding NW store locations
-4. data_process_4.R
+4. [data_process_4.R](https://github.com/danealohabib/fnac/blob/main/data_process_4.R)
  * Flag nearest cash source for each band office. 
  * Compute geo-distance and travel distance for each band office location
  * Flag ferry routes 
-5. data_process_5.R
+5. [data_process_5.R](https://github.com/danealohabib/fnac/blob/main/data_process_5.R)
  * Finding the nearest population center and compute distance to nearest population
  * Spatial join band office locations with CSDs boundary files
-6. output_1.R
+6. [output_1.R](https://github.com/danealohabib/fnac/blob/main/output_1.R)
  * Generate tables
-7. output_2.R
+7. [output_2.R](https://github.com/danealohabib/fnac/blob/main/output_2.R)
  * Generate figures
-8. master_output.R
+8. [master_output.R]
  * Used to generate all table and figures
-9. master_process.R
+9. [master_process.R](https://github.com/danealohabib/fnac/blob/main/master_process.R)
  * Used to process all raw data
 ### REPLICATE ENTIRE ANALYSIS 
 
