@@ -1,6 +1,3 @@
-
-ptm <- proc.time()
-
 # load packages
 pacman::p_load(tidyverse, janitor, ggmap)
 
@@ -52,5 +49,3 @@ atm_processed_18 <- atm_unprocessed_18 %>%
 
 write_csv(atm_processed_18, "data/processed/atm_processed_18.csv")
 
-# user  system elapsed 
-# 40.27    0.83  659.77 
