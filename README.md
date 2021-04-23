@@ -6,18 +6,36 @@ DOI of publication: [To be completed by K&IS upon publication]
 
 ### GENERATE TABLES AND FIGURES FROM PROCESSED DATA
 
-1. Open the FNAC.Rproj to set global file path
+1. Create an R project
 2. Run master_output.R
 
+### DESCRIPTION OF CODE AND DATA
+1. script/data_process_1.R
+* Generates population data for all CSDs in Canada. Also defines which CSDs are associated with a reserve. 
+2. script/data_process_2.R
+* Data cleaning on the raw Mastercard data. We differentiated between WL ATMs and FI owned ATMs. Processing lat/lon variables for subsequent spatial data analysis  
+3. script/data_process_3.R
+* Web scraping/geocoding NW store locations
+4. script/data_process_4.R
+* Flag nearest cash source for each band office. 
+* Compute geo-distance and travel distance for each band office location
+* Flag ferry routes 
+5. script/data_process_5.R
+* Finding the nearest population center and compute distance to nearest population
+* Spatial join band office locations with CSDs boundary files
+6. script/output_1.R
+* Generate tables
+7. script/output_2.R
+* Generate figures
+8. master_output.R
+* Used to generate all table and figures
+9. script/master_process.R
+* Used to process all raw data
 ### REPLICATE ENTIRE ANALYSIS 
-
-
-Note: save all downloaded data in data/unprocessed/....
 
 1. Download band office data:
 
-** Download the data in shp format (data cleaning code won't work on the csv version) **
-Indigenous and Northern Affairs Canada. 2019. First Nations Locations. Retrieved from https://open.canada.ca/data/en/dataset/b6567c5c-8339-4055-99fa-63f92114d9e4. 
+* Indigenous and Northern Affairs Canada. 2019. First Nations Locations. Retrieved from https://open.canada.ca/data/en/dataset/b6567c5c-8339-4055-99fa-63f92114d9e4. 
 
 2. Download Census Subdivision boundry files
 
@@ -88,46 +106,7 @@ Source: Statistics Canada, 2016 Census, Catalogue no. 98-401-X2016071.
 7. API KEY
 
 Obtain free google maps API key
-Save API key as txt files in api/...
 
 8. Run script/master_process.R
 
-This will generate the data used in data/processed folder
-Note: data processing code takes about 15 mins to run on a ThinkPad X1 Yoga Gen 4
-The next section outlines the data processing code.
-
 9. Run output.R
-
-tables and figures generated in output/
----------------------------------------------------------
-DESCRIPTION OF CODE AND DATA
---------------------------------------------------------- 
-script/data_process_1.R
--	Generates population data for all CSDs in Canada. Also defines which CSDs are associated with a reserve. 
-script/data_process_2.R
--	Data cleaning on the raw Mastercard data. We differentiated between WL ATMs and FI owned ATMs. Processing lat/lon variables for subsequent spatial data analysis  
-script/data_process_3.R
--	Web scraping/geocoding NW store locations
-script/data_process_4.R
--	Flag nearest cash source for each band office. 
--	Compute geo-distance and travel distance for each band office location
--	Flag ferry routes 
-script/data_process_5.R
--	Finding the nearest population center and compute distance to nearest population
--	Spatial join band office locations with CSDs boundary files
-script/output_1.R
--	Generate tables
-script/output_2.R
--	Generate figures
-master_output.R
--	Used to generate all table and figures
-script/master_process.R
--	Used to process all raw data
-data/processed/band_reserve_count.csv
--	Used to identify the number of reserves belonging to each band
-data/processed/band_summary_stats.csv
--	Used to generate summary stats for band offices and relevant CSDs
-data/processed/distance_processed.csv
--	Distance measures for each band office location.
-data/processed/ferry_routes.csv
--	Used to flag API trip with a ferry route 
