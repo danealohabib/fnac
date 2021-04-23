@@ -60,5 +60,3 @@ data <- files_names %>%
 # save 
 data %>%
   write_csv("data/processed/csd_popultion.csv")
-
-# 13.0726 secs
