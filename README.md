@@ -10,27 +10,27 @@ DOI of publication: [To be completed by K&IS upon publication]
 2. Run master_output.R
 
 ### DESCRIPTION OF CODE AND DATA
-1. data_process_1.R
-Generates population data for all CSDs in Canada. Also defines which CSDs are associated with a reserve. 
+1. data_process_1.R  
+ * Generates population data for all CSDs in Canada. Also defines which CSDs are associated with a reserve. 
 2. data_process_2.R
-Data cleaning on the raw Mastercard data. We differentiated between WL ATMs and FI owned ATMs. Processing lat/lon variables for subsequent spatial data analysis  
+ * Data cleaning on the raw Mastercard data. We differentiated between WL ATMs and FI owned ATMs. Processing lat/lon variables for subsequent spatial data analysis  
 3. data_process_3.R
-Web scraping/geocoding NW store locations
+ * Web scraping/geocoding NW store locations
 4. data_process_4.R
-Flag nearest cash source for each band office. 
-Compute geo-distance and travel distance for each band office location
-Flag ferry routes 
+ * Flag nearest cash source for each band office. 
+ * Compute geo-distance and travel distance for each band office location
+ * Flag ferry routes 
 5. data_process_5.R
-Finding the nearest population center and compute distance to nearest population
-Spatial join band office locations with CSDs boundary files
+ * Finding the nearest population center and compute distance to nearest population
+ * Spatial join band office locations with CSDs boundary files
 6. output_1.R
-Generate tables
+ * Generate tables
 7. output_2.R
-Generate figures
+ * Generate figures
 8. master_output.R
-Used to generate all table and figures
+ * Used to generate all table and figures
 9. master_process.R
-Used to process all raw data
+ * Used to process all raw data
 ### REPLICATE ENTIRE ANALYSIS 
 
 1. [Download band office data](https://open.canada.ca/data/en/dataset/b6567c5c-8339-4055-99fa-63f92114d9e4)
