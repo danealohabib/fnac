@@ -13,7 +13,8 @@ DOI of publication: [To be completed by K&IS upon publication]
 1. data_process_1.R  
  * Generates population data for all CSDs in Canada. Also defines which CSDs are associated with a reserve. 
 2. data_process_2.R
- * Data cleaning on the raw Mastercard data. We differentiated between WL ATMs and FI owned ATMs. Processing lat/lon variables for subsequent spatial data analysis  
+ * Data cleaning on the raw Mastercard data
+ * We differentiated between WL ATMs and FI owned ATMs. Processing lat/lon variables for subsequent spatial data analysis  
 3. data_process_3.R
  * Web scraping/geocoding NW store locations
 4. data_process_4.R
