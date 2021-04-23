@@ -5,7 +5,7 @@ Paper Number: [To be completed by K&IS upon publication]
 DOI of publication: [To be completed by K&IS upon publication]
 
 ### DESCRIPTION OF CODE
-1. data_process_1.R  
+1. [data_process_1.R](https://github.com/danealohabib/fnac/blob/main/data_process_1.R)
  * Generates population data for all CSDs in Canada. Also defines which CSDs are associated with a reserve. 
 2. data_process_2.R
  * Data cleaning on the raw Mastercard data
