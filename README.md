@@ -2,7 +2,8 @@
 
 Title of Publication: An Exploration of First Nations Reserves and Access to Cash  
 Paper Number: [To be completed by K&IS upon publication]  
-DOI of publication: [To be completed by K&IS upon publication]
+DOI of publication: [To be completed by K&IS upon publication]  
+[MEDR](https://github.com/danealohabib/fnac/blob/main/First%20Nations%20-%20MEDR.docx)
 
 ### DESCRIPTION OF CODE
 1. [data_process_1.R](https://github.com/danealohabib/fnac/blob/main/data_process_1.R)
