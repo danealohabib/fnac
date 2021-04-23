@@ -23,7 +23,7 @@ DOI of publication: [To be completed by K&IS upon publication]
  * Generate tables
 7. [output_2.R](https://github.com/danealohabib/fnac/blob/main/output_2.R)
  * Generate figures
-8. [master_output.R]
+8. [master_output.R](https://github.com/danealohabib/fnac/blob/main/master_output.R)
  * Used to generate all table and figures
 9. [master_process.R](https://github.com/danealohabib/fnac/blob/main/master_process.R)
  * Used to process all raw data
