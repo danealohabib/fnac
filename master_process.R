@@ -4,13 +4,13 @@ if (!require("pacman")) install.packages("pacman")
 
 # process raw data
 
-source("script/data_process_1.R")
+source("data_process_1.R")
 
-source("script/data_process_2.R")
+source("data_process_2.R")
 
-source("script/data_process_3.R")
+source("data_process_3.R")
 
-source("script/data_process_4.R")
+source("data_process_4.R")
 
-source("script/data_process_5.R")
+source("data_process_5.R")
 
