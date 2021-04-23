@@ -45,7 +45,7 @@ Statistics Canada. Population Centre Boundary File, 2016 Census. Statistics Cana
 4. Retreive 2018 Mastercard ATM data from the Bank of Canada
  
 Data available upon request  
-Email: DO'Habib@bank-banque-canada.ca
+Email: [DO'Habib@bank-banque-canada.ca](DO'Habib@bank-banque-canada.ca)
 
 5. Retreive 2018 FIF database
 
