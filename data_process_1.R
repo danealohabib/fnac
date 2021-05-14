@@ -60,3 +60,4 @@ data <- files_names %>%
 # save 
 data %>%
   write_csv("data/processed/csd_popultion.csv")
+
