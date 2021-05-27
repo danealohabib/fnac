@@ -9,7 +9,8 @@ Paper Number: Paper 2021-8
  * Generates population data for all CSDs in Canada. Also defines which CSDs are associated with a reserve. 
 2. [data_process_2.R](https://github.com/danealohabib/fnac/blob/main/data_process_2.R)
  * Data cleaning on the raw Mastercard data
- * We differentiated between WL ATMs and FI owned ATMs. Processing lat/lon variables for subsequent spatial data analysis  
+ * We differentiated between WL ATMs and FI owned ATMs. Processing lat/lon variables for subsequent spatial data analysis
+ * Web scrape/geocode missing Arctic Store ATMs    
 3. [data_process_3.R](https://github.com/danealohabib/fnac/blob/main/data_process_3.R)
  * Web scraping/geocoding NW store locations
 4. [data_process_4.R](https://github.com/danealohabib/fnac/blob/main/data_process_4.R)
