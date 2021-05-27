@@ -1,7 +1,7 @@
 ## Code Supporting 'An Exploration of First Nations Reserves and Access to Cash'
 
-[Title of Publication: An Exploration of First Nations Reserves and Access to Cash](https://www.bankofcanada.ca/2021/05/staff-discussion-paper-2021-8/)
-Paper Number: Paper 2021-8
+Title of Publication: [An Exploration of First Nations Reserves and Access to Cash](https://www.bankofcanada.ca/2021/05/staff-discussion-paper-2021-8/)  
+Paper Number: Paper 2021-8  
 [MEDR](https://github.com/danealohabib/fnac/blob/main/First%20Nations%20-%20MEDR.docx)
 
 ### DESCRIPTION OF CODE
